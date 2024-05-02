@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    // targets
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
+    "moduleDetection": "force",
+		"target": "es2023",
+    "resolveJsonModule": false, // ESM doesn't yet support JSON modules
+    "lib": [
+			"DOM",
+			"DOM.Iterable",
+			"esnext"
+		],
+    // building
+    "baseUrl": ".",
+    "declaration": true,
+    "noEmitOnError": true,
+    // preferences
+		"forceConsistentCasingInFileNames": true,
+		"noFallthroughCasesInSwitch": true,
+		"noImplicitOverride": true,
+		"noPropertyAccessFromIndexSignature": true,
+		"noUncheckedIndexedAccess": true,
+		"stripInternal": true,
+    "allowJs": false,
+    "downlevelIteration": true,
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "newLine": "lf",
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "useDefineForClassFields": true
+  },
+}

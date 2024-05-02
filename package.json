@@ -1,0 +1,27 @@
+{
+	"name": "@cycraft/tsconfig",
+	"version": "0.0.0",
+	"description": "Modern ESM base tsconfig to extend from",
+	"license": "MIT",
+	"repository": "cycraft/tsconfig",
+	"author": {
+		"name": "Luca Ban - Mesqueeb",
+		"email": "luca@cycraft.co",
+		"url": "https://cycraft.co"
+	},
+	"main": "tsconfig.json",
+	"engines": {
+		"node": ">=20"
+	},
+	"files": [
+		"tsconfig.json"
+	],
+	"keywords": [
+		"esm",
+		"tsconfig",
+		"typescript",
+		"ts",
+		"config",
+		"configuration"
+	]
+}
