@@ -33,4 +33,7 @@
     "strict": true,
     "useDefineForClassFields": true
   },
+  "ts-node": {
+    "esm": true
+  }
 }
