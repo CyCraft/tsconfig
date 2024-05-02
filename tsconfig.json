@@ -4,7 +4,7 @@
     "module": "nodenext",
     "moduleResolution": "nodenext",
     "moduleDetection": "force",
-		"target": "es2023",
+		"target": "es2022",
     "resolveJsonModule": false, // ESM doesn't yet support JSON modules
     "lib": [
 			"DOM",
