@@ -1,6 +1,7 @@
 {
 	"name": "@cycraft/tsconfig",
-	"version": "0.1.1",
+	"version": "0.1.2",
+	"type": "module",
 	"description": "Modern ESM base tsconfig to extend from",
 	"license": "MIT",
 	"repository": "cycraft/tsconfig",
